@@ -1,0 +1,27 @@
+{
+  "name": "krado",
+  "version": "0.0.0",
+  "description": "Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/ --output dist/css/ --watch --source-map true",
+    "sass-min": "node-sass scss/ --output dist/css/ --output-style compressed --watch --source-map true",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SiraKen@github.com/novalumo/krado.git"
+  },
+  "author": "Novalumo Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/novalumo/krado/issues"
+  },
+  "homepage": "https://github.com/novalumo/krado#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "typescript": "^4.3.4",
+    "uglify-js": "^3.13.10"
+  }
+}
